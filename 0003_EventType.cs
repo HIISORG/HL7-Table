@@ -374,7 +374,7 @@ namespace HL7Table {
     /// <summary>Segment Pattern Response Message</summary>
     [Display(Name = "Segment Pattern Response Message")]
     K34,
-    //TODO: Complete M - Q codes
+    //UNDONE Complete M - Q codes
     /// <summary>ORU/ACK – Unsolicited transmission of an observation message</summary>
     [Display(Name = "ORU/ACK – Unsolicited transmission of an observation message")]
     R01,
@@ -423,6 +423,6 @@ namespace HL7Table {
     /// <summary>ROR – Pharmacy prescription order query response. (Deprecated)</summary>
     [Display(Name = "ROR – Pharmacy prescription order query response")]
     ROR
-    // TODO: Complete S - W codes
+    // UNDONE Complete S - W codes
   }
 }

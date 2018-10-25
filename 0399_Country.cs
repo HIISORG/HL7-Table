@@ -40,6 +40,6 @@ namespace HL7Table {
     AUT,
     [Display(Name = "Azerbaijan")]
     AZE
-    //TODO: Complete country codes
+    //UNDONE Complete country codes
   }
 }

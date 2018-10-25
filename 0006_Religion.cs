@@ -89,6 +89,6 @@ namespace HL7Table {
     /// <summary>Christian: Episcopalian</summary>
     [Display(Name = "Christian: Episcopalian")]
     EPI
-    //TODO: Complete the rest list
+    //UNDONE Complete the rest list
   }
 }
