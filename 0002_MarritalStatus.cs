@@ -6,37 +6,85 @@ namespace HL7Table {
   public enum MarritalStatus {
     [Display(Name = "")]
     None,
-    [Display(Name = "Separated", ShortName = "A")]
+    /// <summary>
+    /// Seperated
+    /// </summary>
+    [Display(Name = "Separated", ShortName = "A", Description = "Separated")]
     A,
-    [Display(Name = "Divorced", ShortName = "D")]
+    /// <summary>
+    /// Divorced
+    /// </summary>
+    [Display(Name = "Divorced", ShortName = "D", Description = "Divorced")]
     D,
-    [Display(Name = "Married", ShortName = "M")]
+    /// <summary>
+    /// Married
+    /// </summary>
+    [Display(Name = "Married", ShortName = "M", Description = "Married")]
     M,
-    [Display(Name = "Single", ShortName = "S")]
+    /// <summary>
+    /// Single
+    /// </summary>
+    [Display(Name = "Single", ShortName = "S", Description = "Single")]
     S,
-    [Display(Name = "Widowed", ShortName = "W")]
+    /// <summary>
+    /// Widowed
+    /// </summary>
+    [Display(Name = "Widowed", ShortName = "W", Description = "Widowed")]
     W,
-    [Display(Name = "Common Law", ShortName = "C")]
+    /// <summary>
+    /// Common law
+    /// </summary>
+    [Display(Name = "Common Law", ShortName = "C", Description = "Common Law")]
     C,
-    [Display(Name = "Living Together", ShortName = "G")]
+    /// <summary>
+    /// Living together
+    /// </summary>
+    [Display(Name = "Living Together", ShortName = "G", Description = "Living Together")]
     G,
-    [Display(Name = "Domestic Partner", ShortName = "P")]
+    /// <summary>
+    /// Domestic Partner
+    /// </summary>
+    [Display(Name = "Domestic Partner", ShortName = "P", Description = "Domestic Partner")]
     P,
-    [Display(Name = "Registered Domestic Partner", ShortName = "R")]
+    /// <summary>
+    /// Registered domestic partner
+    /// </summary>
+    [Display(Name = "Registered Domestic Partner", ShortName = "R", Description = "Registered Domestic Partner")]
     R,
-    [Display(Name = "legally Separated", ShortName = "E")]
+    /// <summary>
+    /// Legal seperated
+    /// </summary>
+    [Display(Name = "Legally Separated", ShortName = "E", Description = "Legal Separated")]
     E,
-    [Display(Name = "Annulled", ShortName = "N")]
+    /// <summary>
+    /// Annulled
+    /// </summary>
+    [Display(Name = "Annulled", ShortName = "N", Description = "Annulled")]
     N,
-    [Display(Name = "Interlocutory", ShortName = "I")]
+    /// <summary>
+    /// Interlocutory
+    /// </summary>
+    [Display(Name = "Interlocutory", ShortName = "I", Description = "Interlocutory")]
     I,
-    [Display(Name = "Unmarried", ShortName = "B")]
+    /// <summary>
+    /// Unmarried
+    /// </summary>
+    [Display(Name = "Unmarried", ShortName = "B", Description = "Unmarried")]
     B,
-    [Display(Name = "Unknown", ShortName = "U")]
+    /// <summary>
+    /// Unknown
+    /// </summary>
+    [Display(Name = "Unknown", ShortName = "U", Description = "Unknown")]
     U,
-    [Display(Name = "Other", ShortName = "O")]
+    /// <summary>
+    /// Other
+    /// </summary>
+    [Display(Name = "Other", ShortName = "O", Description = "Other")]
     O,
-    [Display(Name = "Unreported", ShortName = "T")]
+    /// <summary>
+    /// Unreported
+    /// </summary>
+    [Display(Name = "Unreported", ShortName = "T", Description = "Unreported")]
     T
   }
 }

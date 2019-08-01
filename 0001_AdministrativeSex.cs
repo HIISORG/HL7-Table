@@ -4,19 +4,37 @@ namespace HL7Table {
   /// HL7 Table 0001 - Administrative sex.
   /// </summary>
   public enum AdministrativeSex {
-    [Display(Name = "")]
+    [Display(Name = "", ShortName = "", Description = "None")]
     None,
-    [Display(Name = "Female", ShortName = "F")]
+    /// <summary>
+    /// Female
+    /// </summary>
+    [Display(Name = "Female", ShortName = "F", Description = "Female")]
     F,
-    [Display(Name = "Male", ShortName = "M")]
+    /// <summary>
+    /// Male
+    /// </summary>
+    [Display(Name = "Male", ShortName = "M", Description = "Male")]
     M,
-    [Display(Name = "Other", ShortName = "O")]
+    /// <summary>
+    /// Other
+    /// </summary>
+    [Display(Name = "Other", ShortName = "O", Description = "Other")]
     O,
-    [Display(Name = "Unknown", ShortName = "U")]
+    /// <summary>
+    /// Unknown
+    /// </summary>
+    [Display(Name = "Unknown", ShortName = "U", Description = "Unknown")]
     U,
-    [Display(Name = "Ambiguous", ShortName = "A")]
+    /// <summary>
+    /// Ambiguous
+    /// </summary>
+    [Display(Name = "Ambiguous", ShortName = "A", Description = "Ambiguous")]
     A,
-    [Display(Name = "Not Applicable", ShortName = "N")]
+    /// <summary>
+    /// Not applicable
+    /// </summary>
+    [Display(Name = "Not Applicable", ShortName = "N", Description = "Not Applicable")]
     N
   }
 }
